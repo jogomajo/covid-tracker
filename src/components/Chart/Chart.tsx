@@ -52,6 +52,7 @@ const Chart: React.FC<IProps> = ({
           },
         ],
       }}
+      height={110}
     />
   ) : null;
 
@@ -75,6 +76,7 @@ const Chart: React.FC<IProps> = ({
         legend: { display: false },
         title: { display: true, text: `Current state in ${country}` },
       }}
+      height={110}
     />
   ) : null;
 
